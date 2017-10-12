@@ -5,25 +5,39 @@
 
 <head>
 <title> Login Application </title>
+
+<style>
+    header, footer {
+padding: 1em;
+    color: white;
+    background-color: #312f2f ;
+    clear: left;
+    text-align: center;
+}
+
+</style>
 </head>
 
-<body bgcolor="lightblue">
+<body bgcolor="white">
+
+<header><h2><b> MiRACLE SOFTWARE SYSTEMS </b></h2></header>
 
 <center>
 
 <form name="MyForm" >
 <br><br><br><br><br><br><br><br><br>
-<table border="2">
+<table border="0">
+
 
 
 
 <tr>
-<td> USERNAME : <input type="text" name="userName"/>  <br> </td>
+<td><b> USERNAME : <input type="text" name="userName"/>  </b><br> </td>
 
 </tr>
 
 <tr>
-<td> PASSWORD : <input type="password" name="password"/> <br> </td>
+<td> <b>PASSWORD : <input type="password" name="password"/> </b><br> </td>
 
 </tr>
 
@@ -38,7 +52,20 @@
 </table>
 
 </center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>&copy; Miracle Software Systems, Inc. All Rights Reserved</footer>
 
 </body>
-
 </html>
